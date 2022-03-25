@@ -44,7 +44,7 @@ CREATE TABLE `cliente` (
   `telefono` varchar(45) DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
   `ciudad` varchar(45) DEFAULT NULL,
-  `pais` varchar(45) DEFAULT NULL,
+  `pais` varchar(46) DEFAULT NULL,
   PRIMARY KEY (`idCliente`)
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
